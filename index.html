@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+  apiKey: "AIzaSyBjQiLcUIB57l5gJEAFFuVJ5j8hREioj-k",
+  authDomain: "carraccer-8c21e.firebaseapp.com",
+  databaseURL: "https://carraccer-8c21e-default-rtdb.firebaseio.com",
+  projectId: "carraccer-8c21e",
+  storageBucket: "carraccer-8c21e.appspot.com",
+  messagingSenderId: "593410479010",
+  appId: "1:593410479010:web:ddb76ba01b7415d2f9d8fb"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  </head>
+  <body>
+    <script src="./js/Round1.js"></script>
+    <script src="./js/Round2.js"></script>
+    <script src="./js/Round3.js"></script>
+    <script src="./js/Answers.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
